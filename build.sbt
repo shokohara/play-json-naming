@@ -2,13 +2,13 @@ scalariformSettings
 
 name := """play-json-naming"""
 
-version := "1.1.0"
+version := "1.2.0-SNAPSHOT"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.0"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play-json" % "2.5.0" % "provided",
-  "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+  "com.typesafe.play" %% "play-json" % "2.6.0-SNAPSHOT" % "provided",
+  "org.scalatest" %% "scalatest" % "3.0.1" % "test"
 )
 
 organization := "com.github.tototoshi"
